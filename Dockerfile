@@ -1,4 +1,4 @@
-FROM docker:edge
+FROM docker:rc
 
 RUN apk update && \
     apk add py-pip
